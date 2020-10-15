@@ -1,0 +1,12 @@
+.errorMsg, .errorspan{ background: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; top: 100%; box-shadow: none; display: block;}
+.errorMsg.hide, .errorspan.hide{ display: none;}
+.errorMsg.show, .errorspan.show{ display: block;}
+.errorMsg:after, .errorspan:after{ top: -7px; border-bottom: 8px solid #f5c6cb; border-top: 0;}
+
+
+
+
+
+
+
+

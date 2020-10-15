@@ -1,0 +1,273 @@
+@media screen and (max-width: 991px)
+{
+    .gen-service-menu-wrapper .nav .nav-item .nav-link img
+    {
+        height: 30px;
+    }
+    .gen-service-menu-wrapper .nav .nav-item .nav-link h4
+    {
+        font-size: 12px;
+    }
+    
+/*pro-service-detail*/
+    
+    .psdh-img
+    {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .psdh-txt
+    {
+        width: calc(100% - 90px);
+    }
+    
+    .pro-psd-review-rating .review-rate
+    {
+        margin: 0 auto 15px;
+    }
+    
+    .pro-psd-review-rating .review-rate + span
+    {
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+/*Pro Search List*/
+    
+    .psl-content
+    {
+        align-items: flex-start;
+    }
+    .psl-footer .psl-footer-btns, .psl-footer .psl-btn-wrapper
+    {
+        width: 100%;
+    }
+    .psl-footer .psl-btn-wrapper
+    {
+        text-align: left;
+    }
+    .psl-footer .psl-footer-btns
+    {
+        margin-bottom: 15px;
+    }
+    .pro-service-list-box .psl-img
+    {
+        height: 257px;
+    }
+
+}
+
+
+@media screen and (max-width: 767px)
+{
+    .service-step-box .form-group label
+    {
+        font-size: 14px;
+    }
+
+    .service-step-box .form-group > div
+    {
+        font-size: 12px;
+    }
+    
+/*Pro Search List*/
+    
+    .pro-service-list-box
+    {
+        flex-flow: row wrap;
+    }
+    .pro-service-list-box .psl-img, .pro-service-list-box .psl-txt
+    {
+        width: 100%;
+    }
+    .psl-footer-btns p
+    {
+        font-size: 12px;
+    }
+    .psl-footer-btns p + p
+    {
+        margin-left: 20px;
+    }
+    
+    .fixed-compare-box
+    {
+        bottom: 100px;
+        width: 190px;
+    }
+    .fixed-compare-box.close
+    {
+        right: -200px;
+    }
+    a.fcb-toggle
+    {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .inner-fixed-compare-box
+    {
+        padding: 10px;
+    }
+    .fcompare-link a
+    {
+        padding: 5px 15px;
+    }
+    .fcompare-avatar
+    {
+        padding: 3px 8px;
+        margin-right: 10px;
+    }
+    
+/*Pro Job Detail*/
+    
+    .psdh-content.psdhc-status
+    {
+        padding-right: 170px;
+    }
+    .pro-psd-header > div.status-box
+    {
+        width: 160px;
+    }
+    .pro-psd-wrapper
+    {
+        padding: 30px 0;
+    }
+}
+
+
+@media screen and (max-width: 600px)
+{
+    
+/*pro-service-detail*/
+    
+    .psdh-img
+    {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .psdh-txt
+    {
+        width: calc(100% - 0px);
+        margin-top: 20px;
+    }
+    
+    .pro-psd-review-rating > div    
+    {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    
+    .psdh-bottom-btns div img
+    {
+        max-width: 20px;
+    }
+    .psdh-txt h3
+    {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .psdh-txt p, .psdh-bottom-btns div.dist-location button.btn, .pro-psd-info .qn-box p, .pro-psd-info .qn-box h3, .pro-psd-info .qn-box li, .pro-psd-review-rating .review-rate + span, .pp-review-txt p
+    {
+        font-size: 12px;
+    }
+    
+    .pro-psd-review-rating > div    
+    {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    
+    .psdh-bottom-btns div img
+    {
+        max-width: 20px;
+    }
+    .psdh-txt p
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .psdh-content.psdhc-status
+    {
+        padding-right: 0px;
+    }
+    
+}
+
+
+@media screen and (max-width: 575px)
+{
+    
+/*Pro Search List*/
+    
+    .psl-footer .psl-footer-btns p
+    {
+        margin-bottom: 15px;
+    }
+    .psl-footer .psl-footer-btns, .psl-footer .psl-btn-wrapper
+    {
+        width: 100%;
+        text-align: center;
+    }
+    
+/*jobdetail-banner*/
+    
+    .jobdetail-banner p a
+    {
+        display: block;
+        max-width: 110px;
+        width: auto;
+        margin: 20px auto 0;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .pro-service-form-navs .btn_sm
+    {
+        height: 30px;
+        font-size: 12px;
+        margin: 10px auto 0;
+        width: auto;
+        display: table;
+        float: none !important;
+    }
+    
+/*Pro Search List*/
+    
+    .psl-footer .psl-footer-btns p
+    {
+        margin-bottom: 15px;
+    }
+    .psl-content .psl-leftcontent
+    {
+        margin-bottom: 10px;
+    }
+    .psl-content .psl-leftcontent, .psl-content .psl-rightcontent
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .psl-content .psl-centercontent p
+    {
+        text-align: center;
+    }
+
+}
+
+
+
+    
+@media screen and (max-width: 375px)
+{
+    .pro-psd-header > div.status-box
+    {
+        width: 120px;
+    }
+    
+}

@@ -1,0 +1,679 @@
+@media screen and (max-width: 1199px)
+{
+    .cus_home_banner_innercontent
+    {
+        max-width: 560px;
+    }
+    
+    .cus_home_heading
+    {
+        font-size: 40px;
+    }
+    .genrun_Heading h2
+    {
+        font-size: 28px;
+    }
+    .gen-service-list-box h3
+    {
+        font-size: 14px;
+    }
+    .gen-service-list-btn .btn.btn_minwid
+    {
+        min-width: 180px;
+        font-size: 14px;
+    }
+    
+/*Web Chat*/
+    
+    .gen-message-banner img
+    {
+        width: auto;
+        object-fit: cover;
+        object-position: center;
+        min-height: 150px;
+    }
+    .gen-message-box-wrapper .web-chat-box
+    {
+        max-width: 700px;
+        margin-top: -100px;
+    }
+    .web-chat-heading
+    {
+        padding: 20px;
+    }
+    .web-chat-heading h2
+    {
+        font-size: 18px;
+    }
+    .web-chat-heading h2 span.gen-category
+    {
+        font-size: 14px;
+    }
+    .web-chat-row .wcr-icon
+    {
+        width: 30px;
+        height: 30px;
+    }
+    .web-chat-row .web-chat-text 
+    {
+        padding: 20px;
+        border: 1px solid #ebebeb;
+        border-radius: 12px 12px 0 12px;
+        width: calc(100% - 45px);
+        margin-bottom: 15px;
+    }
+    .web-chat-row .web-chat-text div.time-box
+    {
+        bottom: -20px;
+        font-size: 10px;
+    }
+    .web-chat-row .web-chat-text p
+    {
+        font-size: 12px;
+    }
+    .web-chat-inner-body
+    {
+        padding: 30px 30px 10px;
+    }
+    .gen-wcf-input
+    {
+        width: calc(100% - 60px);
+    }
+    
+    .gen-wcf-button 
+    {
+        width: 60px;
+        text-align: right;
+    }
+    .gen-wcf-input input.form-control
+    {
+        height: 40px;
+        font-size: 14px;
+    }
+    .gen-wcf-button .gen-wcf-btn
+    {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    
+/*Follower-Following*/
+    
+    .gen-follow-inner-body
+    {
+        padding: 0 25px;
+    }
+    .gen-follow-heading
+    {
+        padding: 25px 25px 20px;
+    }
+    .group-msg-wrap button.btn1
+    {
+        font-size: 12px;
+    }
+    .group-msg-innerhead {
+    width: 150px;
+    }
+    .group-msg-wrap {
+    width: calc(100% - 180px);
+    }
+    .gen-follow-heading h2
+    {
+        font-size: 16px;
+    }
+    .gen-follow-heading h2 span
+    {
+        max-width: 100px;
+    }
+    .gen-follow-filter > div label, .gen-follow-filter > div div.re_select > div, .filter-sall .custom_checkbox span
+    {
+        font-size: 12px;
+    }
+    .gen-follow-info-top div.gfi-name
+    {
+        font-size: 14px;
+    }
+    .gen-follow-info-top .gfi-category, .gen-follow-info-top .gfi-job
+    {
+        font-size: 13px;
+    }
+    .gen-follow-info-bottom > div, .gen-follow-info-top .gfi-datetime
+    {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 991px)
+{
+    .gen-service-list-inner > .gen-service-list-box
+    {
+        width: calc(33.333% - 10px);
+        margin-bottom: 15px;
+    }
+    .gen-service-list-inner > .gen-service-list-box:not(:nth-child(4n+1))
+    {
+        margin-left: 0;
+    }
+    .gen-service-list-inner > .gen-service-list-box:not(:nth-child(3n+1))
+    {
+        margin-left: 15px;
+    }
+    .genrun_Heading
+    {
+        margin-bottom: 40px;
+    }
+    .gen-service-list-btn
+    {
+        margin-top: 40px;
+    }
+    .run-erand-content p
+    {
+        font-size: 16px;
+        text-align: center;
+    }
+    .innerpage-head-banner h2 {
+        font-size: 26px;
+    }
+    .innerpage-head-banner p {
+        font-size: 14px;
+    }
+    .gsj-listimg
+    {
+        width: 250px;
+    }
+    .gsj-listtxt
+    {
+        width: calc(100% - 250px);
+    }
+    .gsj-cfac-box p
+    {
+        font-size: 14px;
+    }
+    .gsj-cfac-box .btn
+    {
+        padding: 6px 12px;
+        font-size: 12px;
+        min-height: auto;
+    }
+    
+/*Follower-Following*/
+    
+    .group-msg-innerhead
+    {
+        width: 100%;
+    }
+    .group-msg-wrap
+    {
+        width: calc(100% - 0px);
+    }
+    .gen-follow-heading h2
+    {
+        font-weight: 600;
+    }
+    .group-msg-wrap
+    {
+        padding-top: 20px;
+        border-top: 1px solid rgba(0,0,0,0.05);
+        margin-top: 10px;
+    }
+    .filter-sall .custom_checkbox span
+    {
+        padding: 30px 0 0 0;
+    }
+    .filter-sall .custom_checkbox span:before
+    {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .gen-follow-event .custom_checkbox
+    {
+        margin: 0 45px 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px)
+{
+    .cus_home_banner_innercontent
+    {
+        max-width: 460px;
+    }
+    .cus_home_heading
+    {
+        font-size: 32px;
+    }
+    .genrun_Heading h2
+    {
+        font-size: 24px;
+    }
+    .btn.chb_btn
+    {
+        min-height: 50px;
+        width: 160px;
+        font-size: 12px;
+        min-width: auto;
+    }
+    .services-search-list
+    {
+        width: calc(100% - 160px);
+        padding: 5px 10px 5px 5px;
+    }
+    .gen-service-list-inner > .gen-service-list-box
+    {
+        width: calc(50% - 10px)
+    }
+    .gen-service-list-inner > .gen-service-list-box:not(:nth-child(3n+1))
+    {
+        margin-left: 0;
+    }
+    .gen-service-list-inner > .gen-service-list-box:not(:nth-child(2n+1))
+    {
+        margin-left: 20px;
+    }
+    .run-erand-form-wrap
+    {
+        padding: 30px 20px;
+    }
+    .form-group > .row > div+div
+    {
+        margin-top: 15px;
+    }
+    .howtoUse_table.table tbody td:first-child
+    {
+        min-width: auto;
+    }
+    .innerpage-head-banner h2 {
+        font-size: 22px;
+    }
+    .gsj-cfac-box
+    {
+        flex-flow: column wrap;
+    }
+    .gsj-cfac-box p
+    {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .gsj-cfac-box p, .gsj-cfac-box > div
+    {
+        width: 100%;
+        text-align: left;
+    }
+    .gsj-listimg
+    {
+        height: 251px;
+    }
+    .sq-msg-section
+    {
+        text-align: left;
+        font-size: 14px;
+    }
+    
+/*Web Chat*/
+    
+    .gen-message-banner img
+    {
+        min-height: 150px;
+    }
+    .gen-message-box-wrapper .web-chat-box
+    {
+        max-width: auto;
+        width: calc(100% - 30px);
+        margin-top: -88px;
+    }
+    .web-chat-heading
+    {
+        padding: 15px;
+    }
+    .web-chat-heading h2
+    {
+        font-size: 16px;
+    }
+    .web-chat-heading h2 span.gen-category
+    {
+        font-size: 12px;
+    }
+    .web-chat-row .wcr-icon
+    {
+/*
+        width: 25px;
+        height: 25px;
+*/
+    }
+    .web-chat-row .web-chat-text 
+    {
+        padding: 15px;
+/*        width: calc(100% - 40px);*/
+        margin-bottom: 10px;
+    }
+    .web-chat-inner-body
+    {
+        padding: 20px 20px 0px;
+    }
+    .gen-wcf-input
+    {
+        width: calc(100% - 50px);
+    }
+    
+    .gen-wcf-button 
+    {
+        width: 50px;
+        text-align: right;
+    }
+    .gen-wcf-input input.form-control
+    {
+        font-size: 12px;
+    }
+    .gen-wcf-button .gen-wcf-btn
+    {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        min-height: auto;
+    }
+    .gen-wcf-button .gen-wcf-btn .SendBtn-icon
+    {
+        height: 15px;
+        width: auto;
+    }
+    .web-chat-heading .gen-status
+    {
+        width: 6px;
+        height: 6px;
+    }
+    
+    .web-chat-heading > div div.job-status {font-size: 12px; width: 80px;}
+    
+    .web-chat-heading > div h2 {width: calc(100% - 80px);}
+
+    
+/*Follower-Following*/
+    
+    .group-msg-wrap
+    {
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        padding-bottom: 10px;
+    }
+    .group-msg-wrap > div.group-msg-head
+    {
+        width: 100%;
+    }
+    .group-msg-head p
+    {
+        text-align: left;
+    }
+    .group-msg-wrap > div
+    {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+    .group-msg-wrap > div.group-msg-head p + p
+    {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .gen-follow-filter
+    {
+        justify-content: center;
+    }
+    .gen-follow-filter > div, .gen-follow-filter.following-filter > div
+    {
+        width: 33.333%;
+        margin-bottom: 10px;
+    }
+    .gen-follow-text .gen-follow-img
+    {
+        width: 40px;
+    }
+    .gen-follow-text .gen-follow-img img
+    {
+        width: 25px;
+    }
+    .gen-follow-event button.btn2
+    {
+        font-size: 10px;
+        min-width: 65px;
+        padding: 5px 8px;
+        min-height: auto;
+    }
+    .gen-follow-text
+    {
+        width: calc(100% - 80px);
+    }
+    .gen-follow-event
+    {
+        width: 80px;
+    }
+    .gen-follow-pagination
+    {
+        padding: 30px 0;
+    }
+    .gen-follow-pagination ul li a
+    {
+        font-size: 12px;
+        padding: 6px;
+    }
+    .gen-follow-event .custom_checkbox
+    {
+        margin: 0 0 0 auto;
+    }
+        
+    .gen-follow-filter .filter-sall
+    {
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 650px)
+{
+    .gen-search-jobList
+    {
+        flex-flow: column wrap;
+    }
+    .gsj-listimg, .gsj-listimg > img
+    {
+        min-height: 200px;
+    }
+    .gsj-listimg, .gsj-listimg, .gsj-listimg, .gsj-listtxt
+    {
+        width: 100%
+    }
+    .gsj-list-content, .gsj-cfac-box
+    {
+        padding: 20px;
+    }
+    .gsj-cfac-box
+    {
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    .gsj-cfac-box p
+    {
+        margin-bottom: 15px;
+    }
+    .gsj-cfac-box p, .gsj-cfac-box > div
+    {
+        width: calc(100% - 0px);
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 575px)
+{
+    
+/*Follower-Following*/
+    
+    .gen-follow-row, .gen-follow-text
+    {
+        flex-flow: row wrap;
+    }
+    .gen-follow-text {
+        width: calc(100% - 0px);
+    }
+    .gen-follow-event {
+        width: 100%;
+        margin-top: 15px;
+        padding-left: 40px;
+        text-align: left;
+    }
+    .gen-follow-info > div.gen-follow-info-top > div
+    {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .gen-follow-info > div.gen-follow-info-top > div + div
+    {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .gen-follow-info > div.gen-follow-info-top > div + div:before
+    {
+        display: none;
+    }
+    .group-msg-wrap
+    {
+        padding-bottom: 0;
+    }
+    .gen-follow-filter > div, .gen-follow-filter.following-filter > div
+    {
+        width: 50%;
+    }
+    .group-msg-wrap > div p
+    {
+        margin: 10px 0;
+        line-height: 1.5;
+    }
+    .gen-follow-event .custom_checkbox
+    {
+        margin: 0 auto 0 0;
+    }
+    
+}
+
+
+@media screen and (max-width: 500px)
+{
+    .cus_home_heading
+    {
+        font-size: 26px;
+    }
+    .cus_home_banner_innercontent
+    {
+        padding: 0 15px;
+    }
+    .cus_home_form input.form-control, .cus_home_form .input-group-append, .cus_home_form .input-group-append .input-group-text, .btn.chb_btn
+    {
+        width: 100%;
+        border-radius: 6px !important;
+        margin-left: 0;
+    }
+    .cus_home_form .input-group-append
+    {
+        margin-top: 10px;
+    }
+    .services-search-list
+    {
+        width: 100%;
+        border-radius: 6px;
+    }
+    .gen-service-list-inner > .gen-service-list-box
+    {
+        width: calc(100% - 0px);
+        border-radius: 0px;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    }
+    .gen-service-list-inner > .gen-service-list-box > a
+    {
+        display: flex;
+        align-items: center;
+        flex-flow: row nowrap;
+    }
+    .gen-service-list-inner > .gen-service-list-box > a .gen-service-list-box-img
+    {
+        width: 100px;
+        height: 100px;
+    }
+    .gen-service-list-inner > .gen-service-list-box > a .gen-service-list-box-caption
+    {
+        width: calc(100% - 100px);
+        padding: 0 10px;
+        text-align: left;
+    }
+    .gen-service-list-box h3
+    {
+        text-align: left;
+        height: 36px;
+    }
+    .gen-service-list-box-img img
+    {
+        min-width: 100px;
+        min-height: 100px;
+        transform: scale(1);
+    }
+    .gen-service-list-inner > .gen-service-list-box:not(:nth-child(2n+1))
+    {
+        margin-left: 0px;
+    }
+    .run-erand-innerblock
+    {
+        padding: 0 0;
+    }
+    .run-erand-btnblock .btn
+    {
+        display: table;
+        margin: 0 auto;
+    }
+    .gen-jobs-innerbar
+    {
+        flex-flow: column wrap;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    .gen-jobs-innerbar span
+    {
+        font-size: 14px;
+        width: calc(100% - 0px);
+        text-align: center;
+    }
+    .gen-jobs-innerbar > span
+    {
+/*        margin-bottom: 20px;*/
+        margin-bottom: 0;
+    }
+    .web-chat-heading > div, .web-chat-heading > div h2 {flex-flow: row wrap; width: calc(100% - 0px);}
+    .web-chat-heading h2 span.gen-category {margin: 7px 0;}
+    .web-chat-heading h2 span.gen-category, .web-chat-heading > div div.job-status
+    {
+        display: inline-block;
+        width: 100%;
+        text-align: left;
+        overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+}
+
+
+
+@media screen and (max-width: 450px)
+{
+    .web-chat-row .web-chat-row-inner
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px)
+{
+    
+/*Follower-Following*/
+    
+    .gen-follow-filter > div, .gen-follow-filter.following-filter > div
+    {
+        width: 100%;
+    }
+    .gen-follow-filter .filter-sall
+    {
+        text-align: left;
+    }
+    
+}

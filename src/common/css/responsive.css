@@ -1,0 +1,2482 @@
+/*------------------////**** MEDIA 1400pxStart ****\\\\--------------------*/
+
+@media screen and (max-width: 1400px)
+{
+    
+/*-----------Home------*/
+    .home_bansec
+    {
+        padding: 40px 0 50px;
+        align-items: center;
+    }
+    .title1
+    {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .hbantt_sec
+    {
+        margin: 0 0 30px;
+    }
+    .ourpr_sec .title2
+    {
+        margin: 0 0 30px;
+        font-size: 26px;
+    }
+    .ourpr_info
+    {
+        padding: 0 0 25px;
+        margin: 0 0 25px;
+    }
+    .ourpr_info h3
+    {
+        font-size: 22px;
+    }
+    .ourpr_info p
+    {
+        font-size: 15px;
+    }
+    .banscr_down p
+    {
+        font-size: 14px;
+    }
+    
+    .scrollTodiv
+    {
+        width: 90px;
+        height: 90px;
+        font-size: 30px;
+        bottom: -56.5px;
+    }
+    .scrollTodiv i
+    {
+        line-height: 40px;
+    }
+}
+
+/*------------------////**** MEDIA 1400pxEnd ****\\\\--------------------*/
+
+
+/*------------------////**** MEDIA 1199pxStart ****\\\\--------------------*/
+
+@media screen and (max-width: 1199px)
+{
+    
+/*-----------Home------*/
+    
+    .title1
+    {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .hbantt_sec
+    {
+        margin: 0 0 20px;
+    }
+    .ourpr_sec .title2
+    {
+        margin: 0 0 20px;
+        font-size: 22px;
+    }
+    .ourpr_info h3
+    {
+        font-size: 20px;
+    }
+    .ourpr_info p
+    {
+        font-size: 13px;
+    }
+    .hbantt_sec p
+    {
+        font-size: 14px;
+    }
+    
+    
+/*------------------DefaUlt CommOn--------------------*/
+    
+    div.errorMsg
+    {
+        font-size: 12px;
+    }
+    
+/*-------------------///Header///--------------------*/
+    
+    .menu-wrap ul.navbar li
+    {
+        padding: 0 10px;
+    }
+    ul.navbar li a
+    {
+        font-size: 14px;
+    }
+    ul.navbar li.navbar-btn a
+    {
+        padding: 5px 0px;
+    }
+    
+/*------------Service--------------*/
+
+    .account-services-checkbox-label span img
+    {
+        height: 40px;
+        width: auto;
+    }
+    .account-services-col
+    {
+        width: calc(20% - 32px);
+    }
+    .account-services-col:not(:first-child)
+    {
+        margin-left: 40px;
+    }
+    .account-services-col span.service-alterlink
+    {
+        font-size: 10px;
+    }
+
+/*-------------My Services----------*/
+    
+.profile_tbleft{ width: 50%;}
+.profile_tbright{ width: 50%; padding: 25px 15px;}
+.sdmenu_tab{ width: 51px; 
+/*    position: relative; z-index: 1;*/
+    }
+.sdmenu_list{ background: #f7f7f7; height: 100%; box-shadow: 0 0 4px 1px #d7dcde;}
+.sdmenu_list > li { border: 0; min-height: 44px; min-width: 51px; width: 51px; justify-content: flex-start;  transition: all 0.2s linear;}
+
+    .sdmenu_list > li .sdmenu_list_left b, .sdmenu_list > li .sdmenu_list_right {display: none !important;}     
+    .sdmenu_list > li:hover .sdmenu_list_left b {display: inline-block !important;}
+    .sdmenu_list > li:hover .sdmenu_list_right {display: flex !important; width: 100px; 
+/*        justify-content: space-between;*/
+    }
+    
+.sdmenu_list > li:hover { width: 250px; transition: all 0.2s linear;}
+.sdmenu_list > li.active{ z-index: 2;}
+.sdmenu_list > li:after{ border-width: 8px;}
+.sdmenu_list > li.active:after{ left: 51px;}
+.sdmenu_list > li.active:hover:after{ left: 250px; transition: all 0.2s linear;}
+.sdmenu_list > li > a{ padding: 10px 0 10px 51px; 
+/*    width: 51px; */
+    white-space: nowrap; overflow: hidden; 
+/*    position: absolute; left: 0; top: 0;*/
+    transition: background 400ms; }
+/*.sdmenu_list > li:hover > a{ width: 230px;  overflow: visible; box-shadow: 0 0 4px 1px #d7dcde;}*/
+/*
+.sdmenu_list > li > a > *{ opacity: 0;}
+.sdmenu_list > li > a > .sdm_ico{ opacity: 1;}
+.sdmenu_list > li:hover > a > *{ opacity: 1; }
+*/
+.sdm_ico{ left: 8px; width: 35px; height: 28px;}
+.sdm_enable_txt{ transition: none;}
+.sdmenu_tabcontent{ margin-left: 15px; width: calc(100% - 66px);}
+.sdhmenu_tablist > li > a{ font-size: 14px; padding: 8px 10px;}
+
+    .gen-myservices-img img
+    {
+        height: 30px;
+        width: 30px;
+    }
+    .gen-myservices-text
+    {
+        font-size: 14px;
+    }
+
+/*----DLB_status_Bar-------*/    
+    
+    
+    .DRB_default, .DLB_default
+    {
+        padding: 20px;
+    }
+    .DLB_services_header h2, .DLB_reviews_rating span.Grr_title, .DRB_default h2, .DLB_default h2
+    {
+        font-size: 14px;
+    }
+    a.DLBS_header_link
+    {
+        font-size: 12px;
+    }
+    .DRB_default ul.DRB_points_list, .DRB_default p
+    {
+        font-size: 12px;
+    }
+    .DRB_default .Dash_point_wrap h3
+    {
+        font-size: 24px;
+    }
+    .DRB_default ul.DRB_points_list li span.DRB_points_date
+    {
+        font-size: 11px;
+    }
+    .DRB_default .DRB_link a
+    {
+        font-size: 12px;
+    }
+    .DLB_services_body .DLB_service_box
+    {
+        padding: 0 5px;
+    }
+    .DLB_service_box .DLB_service_title
+    {
+        padding: 6px 6px;
+        font-size: 10px;
+    }
+    .DLB_reviews_rating span.Grr_star i
+    {
+        font-size: 18px;
+    }
+    .DLB_reviews_rating span.Grr_point
+    {
+        font-size: 16px;
+    }
+    .DLB_reviews_rating span.Grr_text, .DLB_services_status_header h2
+    {
+        font-size: 14px;
+    }
+    .DLB_services_count h3
+    {
+        font-size: 24px;
+    }
+    .DLB_services_NJF h3
+    {
+        font-size: 12px;
+    }
+    .DLB_status_inner .DLB_services_status_wrap
+    {
+        padding: 20px;
+    }
+    .DLB_jobs_table_wrap
+    {
+        overflow-x: auto;
+    }
+    table.DLB_jobs_table
+    {
+        min-width: 800px;
+    }
+    table.DLB_jobs_table th, table.DLB_jobs_table td
+    {
+        font-size: 12px;
+    }
+    
+/*-------------Left SideBar---------*/
+    
+    .sdmenu_list > li
+    {
+        z-index: 99;
+    }
+    .sdmenu_list > li > a.xs-icon-visible
+    {
+        display: inline-block;
+    }
+    .sdmenu_list > li > a.sdmenu_list_left
+    {
+        padding: 10px 0 10px 0px;
+        width: calc(100% - 0px);
+/*        width: calc(100% - 120px);*/
+    }
+    .sdmenu_list > li > a.sdmenu_list_left i.sdm_ico
+    {
+        display: none;
+    }
+    
+}
+
+/*------------------////**** MEDIA 1199pxEnd ****\\\\--------------------*/
+
+
+
+/*------------------////**** MEDIA MIN 992pxStart ****\\\\--------------------*/
+
+@media screen and (min-width: 992px)
+{
+.xs-hide
+{
+    display: block;
+}
+.xs-visible
+{
+    display: none;
+}
+    
+.list .list-content 
+{
+    width: calc(100% - 150px);
+    margin-left: 50px;
+}
+    
+.header-navbar .toggle-menu-wrap
+{
+    display: none;
+}
+}
+
+/*------------------////**** MEDIA MIN 992pxEnd ****\\\\--------------------*/
+
+
+/*------------------////**** MEDIA 991pxStart ****\\\\--------------------*/
+
+@media screen and (max-width: 991px)
+{
+    
+/*---------Header-------*/
+
+    .header-wrapper div.header-logo
+    {
+        width: 100px;
+    }
+
+    .header-wrapper div.header-navbar
+    {
+        width: calc(100% - 100px);
+        padding-left: 30px;
+    }
+    ul.navbar li.nb-login.nblpl-0
+    {
+        padding-left: 0;
+    }
+    ul.navbar li.navbar-btn a
+    {
+        width: 100px;
+        line-height: 28px;
+    }
+    
+    body.open-overlay
+    {
+        overflow-y: hidden;
+        position: relative;
+    }
+    body.open-overlay:after
+    {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+        background-color: rgba(0,0,0,0.6);
+    }
+    .header_in.navbar-fixed
+    {
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+    header
+    {
+        height: 62px;
+    }
+    .header_services_wrapper
+    {
+        height: 72px;
+    }
+    .header_services_innerwrapper
+    {
+        height: 60px;
+    }
+    header.loggedin
+    {
+/*        height: 122px;*/
+/*        height: 63px;*/
+    }
+    .header-navbar nav
+    {
+/*        display: none;*/
+        position: fixed;
+        top: 0;
+        right: -310px;
+        width: 300px;
+        height: 100vh;
+        padding: 20px 25px;
+        overflow-y: auto;
+        background-color: #ffffff;
+        box-shadow: 0 0 15px rgba(0,0,0,0.08);
+        z-index: 9999999;
+        transition: all 0.2s linear;
+    }
+    header.open .header-navbar nav
+    {
+        right: 0px;
+        transition: all 0.2s linear;
+    }
+    header .header-logo a img
+    {
+        width: 100px;
+    }
+    .header_in.navbar-fixed .header-logo a img
+    {
+        width: 80px;
+    }
+    .header-navbar nav div.toggle-menu-wrap
+    {
+        text-align: right;
+        margin-bottom: 20px;
+    }
+    
+    .header-navbar .toggle-menu-wrap
+    {
+        display: block;
+    }
+    .header-navbar .toggle-menu-wrap a img
+    {
+        width: 25px;
+        height: auto;
+    }
+    .header-navbar .toggle-menu-wrap img.responsive-logo
+    {
+        width: 100px;
+        height: auto;
+    }
+    .header-navbar nav .menu-wrap
+    {
+        height: calc(100vh - 94px);
+    }
+    ul.navbar li
+    {
+        display: block;
+        width: 100%;
+        line-height: 26px;
+    }
+    ul.navbar li.navbar-btn a
+    {
+        width: 100%;
+    }
+    ul.navbar li.nb-login
+    {
+        margin-top: 30px;
+    }
+    ul.navbar li.nb-login, ul.navbar li.nb-signup
+    {
+        padding-left: 0;
+    }
+    .menu-wrap ul.navbar li+li
+    {
+        margin-top: 10px;
+    }
+    .header-navbar nav .toggle-menu-wrap
+    {
+        width: 100%;
+        display: inline-flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    .header-navbar .toggle-menu-wrap
+    {
+/*        display: none;*/
+    }
+    
+    
+/*----------Responsive User Menu------------*/
+
+    
+    .user-menu-wrap .navbar
+    {
+        justify-content: flex-start;
+    }
+    .user-menu-wrap ul li.welcome-user
+    {
+        margin-bottom: 10px;
+        padding-right: 0;
+    }
+    .user-menu-wrap li[class*="-popup"]
+    {
+        display: inline-block;
+        width: auto;
+        padding: 0;
+    }
+    .user-menu-wrap li[class*="-popup"]+li[class*="-popup"]
+    {
+        margin-left: 15px;
+    }
+    .usermenu-popup-wrapper
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .usermenu-popup-wrapper.open
+    {
+        width: auto;
+        
+    }
+    .usermenu-popup-inner-wrapper
+    {
+        position: absolute;
+        min-width: auto;
+        padding: 25px 10px;
+        width: 250px;
+        top: 0px;
+        background-color: #fff;
+        border-top: 5px solid #f15922;
+        box-shadow: 0 0 15px rgba(0,0,0,0.08);
+    }
+    .user-popup .usermenu-popup-inner-wrapper
+    {
+        top: 50px;
+    }
+    .bell-popup .usermenu-popup-inner-wrapper
+    {
+/*        top: 87px;*/
+        top: 122px;
+    }
+    .usermenu-popup-inner-wrapper:after
+    {
+        top: -27px;
+        left: 50%;
+        right: auto;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+        border-bottom: 10px solid #f15922;
+        transform: translateX(-50%);
+    }
+    .user-popup .usermenu-popup-inner-wrapper:after
+    {
+        left: 10px;
+        transform: translateX(0%);
+    }
+    .bell-popup .usermenu-popup-inner-wrapper:after
+    {
+        left: 67px;
+        transform: translateX(0%);
+    }
+    .usermenu-popup-wrapper.open
+    {
+        box-shadow: none;
+    }
+    a.upiw-close
+    {
+        display: none;
+    }
+
+    .notification-list
+    {
+        min-height: 200px;
+        max-height: 240px;
+    }
+    .usermenu-popup-wrapper
+    {
+        transform: translateY(0);
+        display: none;
+        visibility: visible;
+    }
+    .usermenu-popup-wrapper.open
+    {
+        display: block;
+    }
+    .usermenu-detail-list ul li
+    {
+        display: flex !important;
+    }
+    .usermenu-profile-img img
+    {
+        width: 50px;
+    }
+    .usermenu-profile-img
+    {
+        width: 70px;
+    }
+    .usermenu-profile-text
+    {
+        width: calc(100% - 70px);
+    }
+    .usermenu-footer button.btn_minwid
+    {
+        min-width: 120px;
+    }
+    
+/*-----------Seconadry Navbar-----------*/
+
+    .secondary-navbar
+    {
+        margin: 20px -25px 0px;
+        background-color: transparent;
+    }
+    .secondary-navbar-wrapper ul li
+    {
+        display: block;
+        width: 100%;
+        padding-left: 0;
+        background-color: #3c96d2;
+    }
+    .secondary-navbar-wrapper ul li+li
+    {
+        border-top: 1px solid rgba(0,0,0,0.08);
+    }
+    .secondary-navbar-wrapper ul li a
+    {
+        display: block;
+        width: 100%;
+        padding: 14px 25px;
+        font-size: 12px;
+    }
+    .secondary-navbar-wrapper ul li span img
+    {
+        height: 10px;
+    }
+
+    
+/*-------------------///Accounts///--------------------*/
+/*---------Common--------------*/
+
+    .account-wrapper .account-title-warpper .title4
+    {
+        font-size: 22px;
+    }
+    .account-services-inner-wrapper
+    {
+        margin-bottom: 30px;
+    }
+    .account-services-checkbox-label span img
+    {
+        width: auto;
+        height: 30px;
+    }
+    .account-services-col
+    {
+        width: calc(20% - 10px);
+    }
+    .account-services-col:not(:first-child)
+    {
+        margin-left: 12.5px;
+    }
+    .account-services-checkbox-label>span
+    {
+        font-size: 12px;
+    }
+    .account-services-col span.service-alterlink
+    {
+        text-align: center;
+    }
+    
+
+/*---------------Footer--------------*/
+    
+    .inner-footer-top h3
+    {
+        font-size: 14px;
+    }
+    .inner-footer-top ul li, .inner-footer-top p
+    {
+        font-size: 12px;
+    }
+    .fc3-social-icons ul li a
+    {
+        font-size: 18px;
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+    }
+    .fcopy_right p
+    {
+        font-size: 14px;
+    }
+    
+    
+/*----------------My services--------------*/
+    
+.wrapper_out{ padding: 30px 0 40px;}
+.profile_tbar{ padding: 20px 0;}
+.profile_tbleft{ width: 100%; min-height: initial; margin: 0 0 20px;}
+    .profile_tbright{ width: 100%;}
+    .sdhmenu_tablist{ display: none;}
+    .sdhmenu_mtabtrigger{ background: #f7f7f7; font-size: 16px; font-weight: 600; padding: 8px 15px 6px; position: relative; display: block; color: #222; border-bottom: 1px solid #d7dcde;}
+    .sdhmenu_mtabtrigger i{ position: absolute; right: 0; top: 0; width: 34px; height: 42px; line-height: 42px; text-align: center; font-size: 20px;}
+    .sdhmenu_mtabtrigger:hover, .sdhmenu_mtabtrigger.active{ background: #3c96d2; color: #fff;}
+    .sdhmenu_mtabtrigger.active i:before{ content: "\f106";}
+    .sdhmenu_mtabtrigger:last-child{ border-bottom: 0;}
+    .sdhmenu_content{ padding: 20px 15px; border-bottom: 1px solid #d7dcde;}    
+
+    .gen-myservices-inner-wrapper>div
+    {
+        width: calc(50% - 15px);
+		margin-right: 15px;
+		margin-bottom: 15px;
+    }
+    .gen-myservices-inner-wrapper>div:nth-of-type(2n+2)
+    {
+        margin-right: 0px;
+    }
+
+    
+/*-----------Add My Services---------------*/
+
+
+    .asp-col
+    {
+        width: calc(25% - 10px);
+        margin-bottom: 13.3333px;
+    }
+    .asp-col:not(:nth-child(5n+1))
+    {
+        margin-left: 0;
+    }
+    .asp-col:not(:nth-child(4n+1))
+    {
+        margin-left: 13.3333px;
+    }
+
+    
+/*-----------Home PAge---------------*/
+
+
+    .service_img
+    {
+        width: 54%;
+    }
+    .service_info
+    {
+        width: 46%;
+    }
+    
+.ourpr_col
+    {
+        margin: 0 5px;
+        width: calc(100% - 10px);
+    }
+.ourpr_col>a
+    {
+        padding-left: 65px;
+    }
+/*
+.ourpr_rw .ourpr_col:nth-child(2n+2)
+    {
+        margin-left: 40px;
+    }
+*/
+.ourpr_info h3
+    {
+        font-size: 22px;
+    }
+.ourpr_info p
+    {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+.ourpr_col .ourpr_ico img
+    {
+        width: 40px;
+        height: auto;
+    }
+    
+/*-----------Gen_wallet_content---------------*/
+
+    .table_header_wrap>div
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .table_h_filter_wrap
+    {
+        margin-top: 30px;
+    }
+    .table_h_filter_wrap
+    {
+        justify-content: center;
+    }
+    
+/*----DLB_status_Bar-------*/
+    
+    .Dashboard_box_inner_wrapper div.Dashboard_Leftbox
+    {
+            width: calc(100% - 0px);
+    }
+    .Dashboard_box_inner_wrapper div.Dashboard_Rightbox
+    {
+            width: 100%;
+    }
+    
+    
+/*-----------Manage Property-----------*/
+    
+    .GM_property_rate, .GM_property_action
+    {
+        width: 120px;
+    }
+    .GM_property_rate p
+    {
+        font-size: 16px;
+    }
+    .GM_property_action_btn
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .GM_property_action_btn a
+    {
+        margin: 2px 0;
+    }
+    .GM_property_img img
+    {
+        height: 100%;
+    }
+    
+/*----------genrun-leads-wrapper---------------*/
+    
+    .genLead-flex 
+    {
+        flex-flow: column-reverse wrap;
+    }
+    .genLead-flex-left, .genLead-flex-right 
+    {
+        width: calc(100% - 0px);
+        padding-left: 0;
+    }    
+    .genLead-flex-right 
+    {
+        margin-bottom: 30px;
+    }    
+    
+    .counter-offer-box
+    {
+        left: 0;
+    }
+    .counter-offer-box:after
+    {
+        left: auto;
+        right: 50px;
+    }
+    .genrun_leads_avail
+    {
+        width: 150px;
+        min-width: auto;
+    }
+    .genrun_leads_avail h5
+    {
+        text-align: center;
+    }
+}
+
+/*------------------////**** MEDIA 991pxEnd ****\\\\--------------------*/
+
+
+/*------------------////**** MEDIA MIN 767pxStart ****\\\\--------------------*/
+
+
+@media screen and (min-width:768px){
+.modal-width
+{
+    max-width: 800px;
+    width:100%;
+}
+    
+.list .list-content {
+    width: calc(100% - 130px);
+    margin-left: 20px;
+}
+
+.coc-wrap:hover .coc-msg-box
+{
+    margin-left: 3px;
+    transition: all 0.2s linear;
+}
+
+.coc-right-wrap.coc-wrap:hover .coc-msg-box
+{
+    margin-left: 0px;
+    margin-right: 3px;
+    transition: all 0.2s linear;
+}
+    
+    
+}
+
+
+@media screen and (min-width:992px){
+.modal-width
+{
+    max-width: 1000px;
+    width:100%;
+}
+}
+
+/*------------------////**** MEDIA MIN 767pxEnd ****\\\\--------------------*/
+
+
+
+/*------------------////**** MEDIA 767pxStart ****\\\\--------------------*/
+
+
+@media screen and (max-width: 767px)
+{
+
+/*----------Default------------*/
+    
+    .btn
+    {
+    padding: 5px 20px 5px;
+    height: auto;
+    min-height: 40px;
+    font-size: 14px;
+    min-width: 180px;
+    line-height: 1.9;
+    }
+    .btn1 {
+        padding: 8px 16px;
+        height: auto;
+        min-height: auto;
+        font-size: 14px;
+        border-radius: 30px;
+        min-width: 100px;
+        line-height: 1.4;
+    }
+    .btn-toolbar .btn, .profile_tbright .btn
+    {
+    min-width: auto;
+    padding: inherit;
+    min-height: auto;
+    }
+    
+    .usermenu-footer .btn
+    {
+        padding: 8px 20px 8px;
+    }
+    
+/*----------Error Msg------------*/
+    
+    div.errorMsg
+    {
+        font-size: 10px;
+    }
+
+/*---------Home Page--------------*/
+
+    .title3, .title4
+    {
+        font-size: 18px;
+    }
+    .gotop a
+    {
+        padding: 15px;
+    }
+    .gotop a:hover i.ar1, .gotop a:hover i.ar2
+    {
+        bottom: 24%;
+    }
+    .gotop a:hover i.ar2
+    {
+        bottom: 16%;
+    }
+    
+/*-------------------///Accounts///--------------------*/
+
+/*---------Common--------------*/
+
+
+    .account-wrapper
+    {
+        padding: 40px;
+    }
+    .account-wrapper .account-title-warpper .title4
+    {
+        font-size: 18px;
+    }
+    .account-services-inner-wrapper
+    {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .account-wrapper .account-row>.account-col-2
+    {
+        width: calc(50% - 25px);
+    }
+    .account-wrapper .account-row>.account-col-2:nth-child(2n+2)
+    {
+        margin-left: 50px;
+    }
+    .account-mobile-wrap>div.account-ccode
+    {
+        width: 0px;
+    }
+    .account-mobile-wrap>div.account-mobileno
+    {
+        width: calc(100% - 0px);
+    }
+
+    .account-wrapper
+    {
+        min-width: auto;
+        width: 90%;
+    }
+    .account-apply-addon div.account-apply-addon-field
+    {
+        width: calc(100% - 100px);
+    }
+    .account-apply-addon div.account-apply-addon-btn, .account-apply-addon div.account-apply-addon-btn button
+    {
+        width: 100px;
+    }
+    .account-services-checkbox-label>span
+    {
+        font-size: 10px;
+    }
+
+
+/*-------------------///general-info-wrapper///--------------------*/
+
+    .gfh-flexbox-1
+    {
+        flex-flow: column-reverse wrap;
+    }
+    .gfh-flexbox-1>div.gfh-flexbox1-text
+    {
+        width: 100%;
+        padding-right: 0;
+        border-right: none;
+    }
+    .gfh-flexbox-1>div.gfh-flexbox1-img
+    {
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+    .gfh-flexbox-1>div.gfh-flexbox1-img img
+    {
+        margin: 0 0;
+    }
+    
+/*---------Footer--------------*/
+    
+    
+    .footer-top
+    {
+        padding: 40px 0;
+    }
+    .inner-footer-top>div.footer-col-1, .inner-footer-top>div.footer-col-3, .inner-footer-top>div.footer-col-2
+    {
+        width: 100%;
+        padding: 0 0;
+    }
+    .inner-footer-top>div+div
+    {
+        margin-top: 40px;
+    }
+    .footer-bottom
+    {
+        padding: 20px 0;
+    }
+    .fcopy_right
+    {
+        margin-top: 40px;
+    }
+    .fcopy_right p
+    {
+        font-size: 12px;
+    }
+
+    
+/*-----------Gen Table---------------*/
+
+    .gen-table-header
+    {
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+    div.gen-table-sort
+    {
+        margin-top: 20px;
+        min-width: 150px;
+
+    }
+    .gen-table-footer
+    {
+        text-align: center;
+    }
+    .gen-table-footer .btn
+    {
+        line-height: 28px;
+    }
+
+/*-----------Video Popup---------------*/
+    
+    
+    .genie-video-popup.modal-width .modal-content
+    {
+        padding: 0;
+        border: none;
+        background-color: transparent;
+    }
+    .genie-video-popup.modals .modal-content .modal-header button
+    {
+        position: static;
+        padding: 0;
+        right: 0;
+        top: auto;
+        margin-bottom: 0;
+        float: right;
+    }
+    .genie-video-popup.modals .modal-content .modal-header
+    {
+        margin-bottom: 10px;
+        justify-content: flex-end;
+    }
+    .genie-video-popup .modal-header .close
+    {
+        margin: 0;
+    }
+    .modals.genie-video-popup .modal-content .modal-header button span
+    {
+        color: #fff;
+        border: 2px solid #ffffff;
+    }
+    .genie-video-popup.modals .modal-content .modal-body iframe
+    {
+        height: 350px;
+    }
+    
+    
+	.list-content{width:100%;}
+	.list .list-content h2{font-size:14px;}
+	.list .list-content h3{font-size:14px;}
+	.list .list-content p{font-size:14px;}
+	.list img{
+		width: 70px;
+		height: 70px;
+		margin-top: 20px;
+	}
+	.popup-top h2 { font-size: 18px;}
+	.popup-top{margin-bottom: 10px;}
+	.popup-top .popup-header-l img{width:25px;height: auto;}
+	.modal-width .modal-content{padding:20px 20px 22px;}
+	.modals .modal-content .modal-header button{right:25px;margin-bottom: 10px;padding: 5px 0px;top:17px;background: none;}
+	.modals .modal-content .modal-header{margin-bottom: 20px;}
+	.modal-bottom-close{display: block;}
+	.modals-button { margin: 20px 0 0px;}
+	.modals-button a{margin-right:10px;display: inline-block;}
+	.modals-button .btn-width{min-width: 100px;padding:6px 20px 10px;font-size:14px;height: 36px;}
+	.popup-inner-content h2{font-size:18px;margin-bottom: 15px;}
+	.popup-inner-content span{margin-top:20px;font-size:18px;}
+	.popup-inner-content p{font-size:14px;}
+	.popup-header-r{width:100%;}
+
+    
+/*-----------Home PAge---------------*/
+
+    .service_rw
+    {
+        padding: 50px 0;
+    }
+    .scrollTodiv {
+        bottom: -41.5px;
+        width: 70px;
+        height: 70px;
+        font-size: 22px;
+    }
+    .scrollTodiv i
+    {
+        line-height: 34px;
+    }
+
+    
+    .title1
+    {
+        font-size: 24px;
+    }
+    .ourpr_sec .title2
+    {
+        font-size: 20px;
+    }
+    .ourpr_info h3
+    {
+        font-size: 16px;
+    }
+    .ourpr_info p
+    {
+        font-size: 12px;
+    }
+    .hbantt_sec p
+    {
+        font-size: 12px;
+    }
+    
+    .banscr_down p {
+    font-size: 12px;
+    }
+    
+ 
+/*-----Popup--------*/
+    
+        .asp-col
+    {
+        width: calc(33.333% - 6px);
+        margin-bottom: 9px;
+    }
+    .asp-col:not(:nth-child(4n+1))
+    {
+        margin-left: 0;
+    }
+    .asp-col:not(:nth-child(3n+1))
+    {
+        margin-left: 9px;
+    }
+
+/*-----Buy POints--------*/
+    
+    .plan_select
+    {
+        margin-top: 30px;
+    }
+    .Plan_select_sect
+    {
+        padding: 40px 0;
+    }
+    .btn-align-center
+    {
+        width: auto;
+        margin: 20px auto 0;
+        display: table;
+    }
+    
+/*-----Buy POints--------*/
+
+    .sdhmenu_content form .form-group
+    {
+/*        margin-bottom: 0px;*/
+    }
+    .sdhmenu_content form .form-group div.col-md-6
+    {
+        margin-bottom: 15px;
+    }
+    p.info-website
+    {
+        margin-top: 10px;
+    }
+
+/*-----GEn TabLe--------*/
+    
+    .gen-table-body table
+    {
+        min-width: 900px; 
+    }
+    .gen-table-sp-txt .btn-toolbar button
+    {
+        width: 200px;
+    }
+    
+/*-----------Gen_wallet_content---------------*/
+    
+    .table_h_filter_wrap>div
+    {
+        width: 100%;
+    }
+    .table_h_filter_wrap .gen-table-sort
+    {
+        margin-top: 0;
+    }
+    .table_h_filter_datepicker
+    {
+        margin-top: 20px;
+    }
+
+/*-------------Edit Profile--------------GenRun_Leads--------*/    
+
+    .genrun_leads_btn a.btn
+    {
+        min-width: auto;
+        min-height: auto;
+    }
+    .genrun_leads_inner_wrap
+    {
+        flex-flow: row wrap;
+    }
+    .img_title_tid_wrap
+    {
+        width: 100%;
+        padding-bottom: 15px;
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+    .genrun_leads_date, .genrun_leads_price_btn
+    {
+        width: 100%;
+    }
+    .genrun_leads_title_tid
+    {
+        width: calc(100% - 50px);
+    }
+    .genrun_leads_title_tid h2
+    {
+        font-size: 12px;
+    }
+    .genrun_leads_title_tid p
+    {
+        font-size: 10px;
+    }
+    .genrun_leads_date
+    {
+        padding: 15px 0;
+    }
+    .genrun_leads_date p
+    {
+        font-size: 12px;
+    }
+    .genrun_leads_price_btn
+    {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .genrun_leads_price_btn h2
+    {
+        display: inline-block;
+        width: auto;
+        margin-bottom: 0;
+    }
+    
+    
+/*---------Reply COllapse------*/
+    
+    .Gen_reviews_rating span
+    {
+        font-size: 12px;
+    }
+    .Gen_reviews_box_text h3
+    {
+        font-size: 14px;
+    }
+
+    .Gen_reviews_box_text h3 small
+    {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .Gen_reviews_box_text>p
+    {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .Gen_reviews_box_text_footer span
+    {
+        color: #b9b9b9;
+        font-size: 12px;
+        line-height: 1;
+        margin-right: 15px;
+    }
+    .Gen_Reviews_content .nav-tabs .nav-link
+    {
+        font-size: 12px;
+        padding: 6px 12px;
+        min-width: 100px;
+        margin-right: 10px;
+    }
+    
+    .profile_tbpoint_rating span
+    {
+        font-size: 18px;
+    }
+    .Gen_reviews_box_text_footer span .btn
+    {
+        padding: 0;
+        min-width: auto;
+        font-size: 12px;
+        line-height: 26px;
+        min-height: auto;
+    }
+
+    
+/*-------- HowGenWorksVideo_popup ----------*/
+    
+    .HowGenWorksVideo_popup .modal-bottom-close.enable_close_btn 
+    {
+        margin: 5px auto !important;
+        display: table !important;
+    }
+    
+/*--------Alert POpup------------*/
+    
+    .genie-alert-popup-wrapper
+    {
+        width: calc(100% - 100px);
+        min-width: 300px;
+    }
+    
+/*---POpup---*/   
+    
+    .GHSumPopup_wrap .GHSum_table.table
+    {
+        min-width: 400px;
+    }
+
+    
+ /*-----------GEnrun Customer Leads Details-----------*/
+    
+    .GRL_info_img
+    {
+        height: 60px;
+        width: 60px;
+    }
+    .GRL_info_img img
+    {
+        height: 60px;
+    }
+    .GRL_info_title h2
+    {
+        font-size: 14px;
+    }
+    .GRL_info_rating span
+    {
+        font-size: 12px;
+    }
+    .GRL_info_rating span.Grr_star
+    {
+        font-size: 12px;
+    }
+    .GRL_info_rating span.Grr_star i
+    {
+        margin-right: 3px;
+    }
+    .GRL_info_title h3.IS_fees
+    {
+        font-size: 12px;
+    }
+    .GRL_info_title h3.IS_fees small
+    {
+        font-size: 14px;
+    }
+    .GRL_info_status
+    {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+    .genrun_leads_info_header
+    {
+        flex-flow: row wrap;
+        align-items: flex-start;
+    }
+    .GRL_info_left
+    {
+        width: calc(100% - 190px);
+    }
+    .counter-complete a
+    {
+        margin-top: 0;
+    }
+    .counter-complete > div
+    {
+        margin-bottom: 10px;
+    }
+    .GRL_info_right
+    {
+/*
+        margin-top: 20px;
+        margin-left: 80px;
+*/
+    }
+    .GRL_info_left
+    {
+        flex-flow: row nowrap;
+        align-items: flex-start;
+    }
+    .genrun_user_info_box h4, .genrun_user_info_review_comment h4.GRUIRC_title, .coc-heading h4
+    {
+        font-size: 16px;
+    }
+    h3.IS_fees
+    {
+        font-size: 14px;
+    }
+    .genrun_user_info_box p, .GRL_RCbox_title p
+    {
+        font-size: 12px;
+    }
+    .GRIL_title_list li .GRIL_title, .GRIL_title_list li .GRIL_txt
+    {
+        font-size: 12px;
+    }
+    
+/*-----Filter Section-------*/
+    
+    .Gen_filter_list ul
+    {
+        display: table;
+        margin: 0 auto;
+    }
+    .Gen_checkbox_wrap .form-group
+    {
+        width: 100%;
+    }
+    .Gen_filter_list_content.GFL_date_wrap .card-body
+    {
+        padding-right: 1.25rem;
+    }
+    .Gen_filter_list_content.GFL_range_wrap .card-body
+    {
+        padding-right: 1.25rem;
+    }
+    
+    .Gen_filter_list_content.GFL_checkbox_wrap .card-body
+    {
+        padding-right: 1.25rem;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .Gen_filter_list_content.GFL_checkbox_wrap .card-body .posabs-btn
+    {
+        top: 1.25rem;
+        bottom: auto;
+    }
+    .Gen_filter_list_content.GFL_checkbox_wrap .card-body .posabs-btn.bottom
+    {
+        top: auto;
+        bottom: 1.25rem;
+    }
+
+    .Gen_filter_list_content.GFL_range_wrap .card-body .posabs-btn
+    {
+        top: auto;
+        transform: translateY(0%);
+        position: static;
+        margin-top: 10px;
+    }
+    .Gen_filter_list_content.GFL_date_wrap .card-body .posabs-btn
+    {
+        top: auto;
+        transform: translateY(0%);
+        position: static;
+        margin-top: 30px;
+    }
+
+    .Gen_filter_list .Review_Reply_btn.btn.btn-primary
+    {
+        min-width: auto;
+        padding: 5px;
+        min-height: auto;
+    }
+    
+    
+/*-----------Manage Property-----------*/
+    
+    .GenagentManageProperty_inner_wrapper
+    {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .GenagentManageProperty_inner_wrapper>div:nth-child(2n+2)
+    {
+        margin-left: 20px;
+    }
+    .GM_property_box
+    {
+        flex-flow: column wrap;
+        width: calc(50% - 10px);
+        border-right: none;
+        border-bottom: 5px solid #f15922;
+    }
+    .GM_property_box>div
+    {
+        width: 100%;
+    }
+    .GM_property_box>div:not(.GM_property_img)
+    {
+        padding: 0 15px 15px;
+    }
+    .GM_property_location
+    {
+        padding-top: 15px !important;
+    }
+    .GM_property_location h2.GM_property_title
+    {
+        margin-bottom: 5px;
+    }
+    .GM_property_action_btn
+    {
+        flex-direction: row;
+    }
+    .GM_property_box>div.GM_property_action
+    {
+        justify-content: flex-start;
+    }
+    .GM_property_action_btn a
+    {
+        margin: 0 4px 0 0;
+    }
+    .GenTab_header
+    {
+        flex-flow: column wrap;
+    }
+    .GenTab_header>div
+    {
+        align-items: center;
+        margin-top: 20px;
+    }
+    .GenTab_header button.add_property
+    {
+        min-height: auto;
+        height: 50px;
+        min-width: auto;
+    }
+    .GenTab_header div.gen-table-sort
+    {
+        margin-top: 0;
+    }
+    
+/*-----EditDetailProperty_popup-----------*/
+    
+    .EDProperty_form_wrap .form-group .row>div+div
+    {
+        margin-top: 17px;
+    }
+    .EditDetailProperty_popup .modal-bottom-close.comon_close
+    {
+        display: none;
+    }
+    
+/*-----------Modal--------------*/
+    
+.modal-width.add-service-popup {
+    max-width: 750px;
+}
+    
+/*-------------Buy POints---------*/
+    
+    .modal-dialog.QRcodePay .modal-bottom-close.comon_close
+    {
+        display: none;
+    }
+/*---------------------*/
+    .counter-offer-box .form-group:last-child
+    {
+        margin-top: 15px;
+    }
+    .counter-offer-section form .form-group
+    {
+        margin-bottom: 15px;
+    }
+    .Gen_popup .modal-bottom-close.comon_close
+    {
+        display: none;
+    }
+    .Gen_filter_list li
+    {
+        margin: 0 5px;
+    }
+    .genrun_leads_avail
+    {
+        padding: 10px 0;
+        width: 100%;
+    }
+    .genrun_leads_avail h5
+    {
+        margin-bottom: 0px;
+        text-align: left;
+    }
+
+    .service-step-box .row .col-md-5, .service-step-box .row .col-md-4
+    {
+        padding: 0;
+    }
+    .service-step-box .form-group > div.row + div.row {margin-top: 20px;}
+    .modal-dialog a.close-btn
+    {
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+    .modal-title
+    {
+        padding-left: 35px;
+        font-size: 16px;
+    }
+    
+    .modal-title:before
+    {
+        height: 20px;
+        width: 24px;
+    }
+
+    .howtoUse_list {padding-left: 0; margin: 10px 0 30px;}
+    .errorMsg, .errorspan {font-size: 10px;}
+    
+    
+}
+
+
+
+
+/*------------------////**** MEDIA 767pxEnd ****\\\\--------------------*/
+
+
+/*------------------////**** MEDIA 650pxStart ****\\\\--------------------*/
+
+
+@media screen and (max-width: 650px)
+{
+    .account-services-inner-wrapper
+    {
+        justify-content: center;
+    }
+    .account-services-col
+    {
+        width: calc(33.333% - 10px);
+        margin-bottom: 15px;
+    }
+    .account-services-col:not(:first-child)
+    {
+        margin-left: 0;
+    }
+    .account-services-col:not(:nth-child(3n+1))
+    {
+        margin-left: 15px;
+    }
+    .account-disclaimer label.custom-control-label
+    {
+        font-size: 12px;
+    }
+    
+/*---------Account-------*/
+    
+    .account-wrapper .account-row
+    {
+        flex-flow: row wrap;
+        margin-bottom: 25px;
+    }
+    .account-wrapper .account-row>.account-col-2
+    {
+        width: calc(100% - 0px);
+    }
+    .account-wrapper .account-row>.account-col-2:nth-child(2n+2)
+    {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    .account-wrapper .account-row div.or-divide
+    {
+        top: calc(50% + 3px);
+    }
+}
+
+/*------------------////**** MEDIA 650pxEnd ****\\\\--------------------*/
+
+
+/*------------------////**** MEDIA 600pxStart ****\\\\--------------------*/
+
+
+@media screen and (max-width: 600px)
+{
+    
+/*----DLB_status_Bar-------*/
+    
+    .DLB_reviews_rating span.Grr_title
+    {
+        width: 100%;
+        margin-right: 0;
+        padding-right: 0;
+        border-right: none;
+        margin-bottom: 10px;
+    }
+    
+    .DLB_reviews_rating span.Grr_text
+    {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 7px;
+    }
+    .DLB_status_inner .DLB_services_status_wrap
+    {
+        width: calc(100% - 0px);
+    }
+    .DLB_status_inner .DLB_services_status_wrap:nth-child(2n+2)
+    {
+        margin-left: 0;
+    }
+    ul.DLB_filter_list
+    {
+        margin-bottom: 15px;
+    }
+    ul.DLB_filter_list li
+    {
+        margin-bottom: 10px;
+    }
+    .DRB_default ul.DRB_points_list li
+    {
+        align-items: flex-start;
+    }
+    .DRB_default ul.DRB_points_list li span.DRB_points
+    {
+        line-height: 22px;
+    }
+    .DLB_services_body
+    {
+        margin-bottom: 0;
+    }
+    .DLB_services_body .DLB_service_box
+    {
+        width: 33.333%;
+        margin-bottom: 15px;
+    }
+    
+    /*---POpup---*/
+    
+    .HowGenWorks_popup .modal-title, .Gen_popup .modal-title, .GHpoints_popup .modal-header .modal-title
+    {
+        font-size: 16px;
+    }
+    .HowGenWorks_wrap
+    {
+        margin-left: 0;
+    }
+    .GenPopup_List_title
+    {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    ul.GenPopup_List li
+    {
+        padding-left: 30px;
+        font-size: 13px;
+    }
+    ul.GenPopup_List li:before
+    {
+        background-size: 15px;
+    }
+    .GenPopup_List_wrap
+    {
+        padding-left: 0;
+    }
+    .GHSumPopup_wrap .GHSum_table.table thead th
+    {
+        font-size: 16px;
+    }
+    .GHSumPopup_wrap .GHSum_table td
+    {
+        font-size: 13px;
+    }
+    .GenPopup_Link
+    {
+/*        padding-left: 30px;*/
+    }
+    
+/*Wallet*/
+    
+    
+    .table_h_filter_wrap>div, .gen-table-sort label
+    {
+        text-align: left;
+    }
+    .table_h_filter_datepicker div+div, .table_h_filter_datepicker
+    {
+        margin-top: 10px;
+    }
+    .table_h_filter_datepicker label, .table_h_filter_wrap .gen-table-sort label
+    {
+/*        min-width: 50px;*/
+/*        text-align: right;*/
+        width: 100%;
+        margin: 0;
+    }
+    .table_h_filter_wrap .react-datepicker-wrapper, .table_h_filter_wrap .react-datepicker-wrapper input
+    {
+        width: 100%;
+        max-width: inherit;
+    }
+    .table_h_filter_datepicker > div
+    {
+        width: 100%;
+    }
+    .gen-table-sort div.re_select
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+    .coc-wrap h5.coc-username
+    {
+        font-size: 12px;
+        max-width: 70px;
+    }
+    .coc-msg-box
+    {
+        font-size: 10px;
+        min-width: 70px;
+    }
+    .coc-field-wrap-form > p span
+    {
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .coc-inner-wrapper
+    {
+        max-height: 270px;
+        padding-right: 0;
+    }
+    
+/*-----Filter Section-------*/
+    
+    .Gen_filter_list ul li
+    {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+}
+
+/*------------------////**** MEDIA 600pxEnd ****\\\\--------------------*/
+
+
+
+/*------------------////**** MEDIA 575pxStart ****\\\\--------------------*/
+
+@media screen and (max-width: 575px)
+{
+    
+/*-----------Home PAge---------------*/
+
+    .service_img, .service_info
+    {
+        width: 100%;
+    }
+    .service_rw .container
+    {
+        flex-flow: column wrap;
+    }
+    .service_img
+    {
+        margin-bottom: 40px;
+    }
+    .service_img img
+    {
+        width: 250px;
+    }
+    .ourpr_rw
+    {
+        flex-flow: column wrap;
+    }
+    .ourpr_sec > div
+    {
+        width: 100%;
+    }
+    .ourpr_col
+    {
+        width: calc(100% - 0px);
+    }
+    .ourpr_rw .ourpr_col:nth-child(2n+2)
+    {
+        margin-left: 0;
+    }
+    .ourpr_info
+    {
+        border-bottom: none;
+    }
+    
+    .hbantt_sec .title1
+    {
+        font-size: 24px;
+    }
+    .hbantt_sec p
+    {
+        font-size: 14px;
+    }
+    .ourpr_sec .title2
+    {
+        font-size: 22px;
+    }
+    
+    
+/*---------Edit Gen Pro----------*/
+    
+    .gfh-flexbox1-text p span a, .profile_tbinfo p span
+    {
+        word-break: break-all;
+    }
+    .profile_tbleft
+    {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .profile_tbinfo
+    {
+        width: calc(100% - 0px);
+        width: -webkit-calc(100% - 0px);
+        padding: 0 15px;
+        margin-top: 20px;
+    }
+    
+/*---------Popup----------*/
+    
+    .genie-msg-popup-wrapper
+    {
+        min-width: 300px;
+    }
+    .genie-msg-popup-body .state_img img
+    {
+        width: 50px;
+    }
+    
+    .asp-col
+    {
+        width: calc(50% - 5px);
+        margin-bottom: 10px;
+    }
+    .asp-col:not(:nth-child(3n+1))
+    {
+        margin-left: 0;
+    }
+    .asp-col:not(:nth-child(2n+1))
+    {
+        margin-left: 10px;
+    }
+     .modals-button
+    {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .modals-button a
+    {
+        width: calc(50% - 5px);
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .modal-bottom-close
+    {
+/*        margin-top: 10px;*/
+    }
+
+    .modals-button a:nth-child(2n+2)
+    {
+        margin-left: 10px;
+    }
+    
+/*-------Buy Points--------*/
+ 
+    div.form-group.apply_promorow
+    {
+        flex-flow: row wrap;
+    }
+    .apply_promorow label
+    {
+        width: 40%;
+        padding-right: 10px;
+    }
+    .apply_promorow input
+    {
+        width: 60%;
+        margin-right: 0;
+    }
+    .apply_promorow .btn
+    {
+        width: 180px;
+        margin: 15px 0 0 auto;
+    }
+
+/*-----------Gen_wallet_content---------------*/
+
+    .wallet_table_wrap
+    {
+        overflow-x: auto;
+    }
+    .wallet_table_wrap table
+    {
+        min-width: 700px;
+    }
+    
+/*-------------Edit Profile--------------GenRun_Leads--------*/    
+
+        .genrun_leads_title_tid h2
+    {
+        width: 100%;
+    }
+
+ /*-----------GEnrun Customer Leads Details-----------*/
+    
+    .GRL_RCbox_title h2
+    {
+        font-size: 14px;
+    }
+    .GRL_RCbox_rating_date span
+    {
+        display: inline-block;
+        width: 100%;
+    }
+    .GRL_RCbox_rating_date span.Grr_star
+    {
+        text-align: center;
+    }
+    .GRL_RCbox_rating_date .Grr_text
+    {
+        font-size: 12px;
+    }
+    .GRL_info_title h3.IS_fees
+    {
+        line-height: 26px;
+    }
+    
+/*-----Filter Section-------*/
+    
+    .GFL_range_wrap form>div
+    {
+        width: 100%;
+    }
+    .GFL_range_wrap form>div+div
+    {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .Gen_checkbox_wrap .form-group
+    {
+        width: 100%;
+    }
+    .Gen_filter_list .Review_Reply_btn.btn.btn-primary
+    {
+        font-size: 14px;
+        padding: 0;
+    }
+    
+/*------SuBMore-----*/
+    
+    .SubMore_modal_select label, .SubMore_modal_select .re_select
+    {
+/*        width: 100%;*/
+    }
+    
+    .SMLB_checkbox_wrap>div
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .SMLB_content h3
+    {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .SMLB_content p
+    {
+        font-size: 10px;
+    }
+    .SMLBCD_wrap label, .SubMore_modal_select label
+    {
+        font-size: 14px;
+    }
+    .SMLBCD_wrap .custom_checkbox span, .SMLB_checkbox_wrap .custom_checkbox span
+    {
+        font-size: 12px;
+    }
+    
+    
+/*-----------Manage Property-----------*/
+    
+    .GenagentManageProperty_inner_wrapper
+    {
+        justify-content: center;
+    }
+    .GenagentManageProperty_inner_wrapper>div:nth-child(2n+2)
+    {
+        margin-left: 0px;
+    }
+    .GM_property_box
+    {
+        width: calc(100% - 0px);
+    }
+    .GenTab_header>div
+    {
+        flex-flow: column wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .GenTab_header button.add_property
+    {
+        margin-right: 0;
+    }
+    .GenTab_header div.gen-table-sort
+    {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .gen-table-sort label
+    {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 10px;
+/*        text-align: center;*/
+    }
+    .gen-table-sort div.re_select
+    {
+/*        margin: 0 auto;*/
+        display: table;
+    }
+
+    
+/*-----EditDetailProperty_popup-----------*/
+    
+    .CheckboxWithSelect .custom_checkbox
+    {
+        width: calc(100% - 100px);
+    }
+    .CheckboxWithSelect .re_select
+    {
+        width: 100px;
+    }
+    
+/*---------Reply COllapse------*/
+    
+    span.view-all-replies
+    {
+        float: none;
+    }
+
+/*--------genrun-leads-wrapper-------------*/
+    
+    .GRL_info_left, .GRL_info_right
+    {
+        width: calc(100% - 0px);
+    }
+    .GRL_info_right
+    {
+/*        text-align: center;*/
+    }
+    .GRL_info_right > .GRL_info_status
+    {
+        margin-left: 56px;
+    }
+    .counter-complete
+    {
+        margin-top: 10px;
+    }
+    .counter-complete > .counter-offer
+    {
+/*        margin-right: 5px;*/
+    }
+    
+    .modal-dialog a.close-btn
+    {
+        top: 10px;
+        right: 10px;
+            
+    }
+	/*-----------My Services---------------*/
+
+    .gen-myservices-inner-wrapper>div
+    {
+        width: calc(100% - 0px);
+		margin-right:0px;
+    }
+	
+	
+}
+
+/*------------------////**** MEDIA 575pxEnd ****\\\\--------------------*/
+
+@media screen and (min-width: 768px)
+{
+    .cp-account-submit
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+@media (min-width: 501px) and (max-width: 767px)
+{
+    .cp-account-submit
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .cp-account-submit button+a
+    {
+        margin-left: 10px;
+    }
+}
+
+/*------------------////**** MEDIA 500pxStart ****\\\\--------------------*/
+
+@media screen and (max-width: 500px)
+{
+    
+/*-------------------///Accounts///--------------------*/
+/*---------Common--------------*/
+    
+    .account-wrapper
+    {
+        padding: 25px;
+    }
+    .account-alter-link p a
+    {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .cp-account-submit button, .cp-account-submit a
+    {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .cp-account-submit a
+    {
+        margin-top: 15px;
+    }
+    
+}
+
+/*------------------////**** MEDIA 500pxEnd ****\\\\--------------------*/
+
+
+/*------------------////**** MEDIA 480pxStart ****\\\\--------------------*/
+
+
+@media screen and (max-width: 480px)
+{
+    .modals.genie-video-popup .modal-content .modal-header button span
+    {
+        height: 25px;
+        width: 25px;
+        line-height: 22px;
+    }
+
+	.modals-button .btn-width{padding:6px 15px 10px;}
+	.modals-button a{display: inline-block;}
+	.modal-bottom-close{
+/*        margin-top:15px;*/
+    }
+	.popup-top h2 { font-size: 18px;padding-left: 5px;}
+	.modals .modal-content .modal-header button span{height: 20px;width: 20px;line-height: 18px;}
+	.gen-myservices-box {padding: 30px;}
+
+
+}
+
+/*------------------////**** MEDIA 480pxEnd ****\\\\--------------------*/
+
+
+/*------------------////**** MEDIA MIN-450pxStart ****\\\\--------------------*/
+
+
+@media screen and (min-width: 451px)
+{
+ .xst-mt, .btn_minwid.btn-width
+    {
+        margin-top: 15px !important;
+    }
+}
+
+/*------------------////**** MEDIA MIN-450pxEnd ****\\\\--------------------*/
+
+
+/*------------------////**** MEDIA 450pxStart ****\\\\--------------------*/
+
+@media screen and (max-width: 450px)
+{
+    .account-services-col
+    {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+    .account-services-col:not(:nth-child(3n+1))
+    {
+        margin-left: 0px;
+    }
+    .account-services-col:not(:nth-child(2n+1))
+    {
+        margin-left: 20px;
+    }
+	.enable_close_btn, .btn_minwid.btn-width{
+        margin: 5px auto !important;
+        display: table !important;
+    }
+    .AddService_popup .modal-body .add-service-popup-wrapper+.btn_orange
+    {
+        margin-top: 15px !important;
+    }
+    .SubMore_popup .modal-content .modal-body > .modal-bottom-close
+    {
+        display: table !important;
+    }
+    .wallet_trapo_popup .modal-body .form-group > button
+    {
+        display: table;
+        margin: 0 auto;
+    }
+    .wallet_trapo_popup .modal-body .form-group > button + button
+    {
+        margin: 10px auto 0;
+    }
+
+/*---------------------*/
+    .counter-offer-box
+    {
+        left: 30%;
+    }
+    .counter-offer-box:after
+    {
+        right: 100px;
+    }
+
+}
+
+/*------------------////**** MEDIA 450pxEnd ****\\\\--------------------*/
+
+
+/*------------------////**** MEDIA 400pxStart ****\\\\--------------------*/
+
+@media screen and (max-width: 400px)
+{
+    
+/*---------Header-------*/
+
+    .header-wrapper div.header-navbar
+    {
+        padding-left: 15px;
+    }
+    .country-menu-wrap p
+    {
+        font-size: 12px;
+    }
+    
+/*-----Modal------*/
+    
+    .modals-button a
+    {
+        width: calc(100% - 0px);
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .modals-button a:nth-child(2n+2)
+    {
+        margin-left: 0px;
+    }
+    .modal-bottom-close
+    {
+        margin-top: 0;
+    }
+    .modals-button a+a
+    {
+        margin-top: 10px;
+    }
+    
+/*----DLB_status_Bar-------*/
+    
+    .DLB_services_body .DLB_service_box
+    {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    
+    
+/*---------------*/
+    
+    .GRL_accept_back a
+    {
+/*        width: 100%;*/
+        margin-top: 5px;
+    }
+    .counter-complete a
+    {
+        width: 100%;
+    }
+    .GRL_info_right > .GRL_info_status
+    {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+    
+.table.howtoUse_table    
+    
+    {
+        font-size: 10px;
+    }
+}
+
+/*------------------////**** MEDIA 400pxEnd ****\\\\--------------------*/
